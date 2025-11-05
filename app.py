@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 app = Flask(__name__)
 
 # Load model and scaler
-model = load_model('model.h5')
+model = load_model('model.keras')
 scaler = pickle.load(open('scalers.pkl', 'rb'))
 
 HTML_PAGE = """

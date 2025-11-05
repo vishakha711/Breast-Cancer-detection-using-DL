@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Load model and scaler
 model = load_model('model.h5')
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+scaler = pickle.load(open('scalers.pkl', 'rb'))
 
 HTML_PAGE = """
 <!DOCTYPE html>

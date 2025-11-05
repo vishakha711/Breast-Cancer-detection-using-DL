@@ -1,7 +1,7 @@
 Flask==3.0.3
-tensorflow
-gunicorn
+tensorflow==2.20.0
 scikit-learn
+gunicorn
 numpy
 pandas
 joblib
